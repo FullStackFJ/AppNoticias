@@ -1,0 +1,56 @@
+.barra{
+    display:flex;
+    flex-direction: row;
+    position: relative;
+    background-color: #91D2D2;
+    width: 100%;
+}
+
+.barra .logo img{
+    width: 70px;
+}
+
+.barra .logo{
+    display:flex;
+    flex-direction: row;
+    align-content: start;
+}
+
+.barra .BarraBusqueda{
+    display:flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+    padding:5px;
+    margin:20px;
+    block-size:200%;
+    width: 500px;
+    border-radius: 8%;
+    left: 7cm;
+    
+}
+
+.barra .lupa img{
+    width: 70px;
+}
+
+.barra .lupa{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 6.5cm;
+   
+}
+
+.barra .notif img{
+    margin: 5px 0 5px 15px;  
+    width:70px;
+}
+.barra .notif{
+    display: flex;
+    position: relative;
+    justify-content: end;
+    flex-direction: row;
+    left: 12.5cm;
+    
+}
