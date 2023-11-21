@@ -131,3 +131,16 @@ nav a{
     color: black;
     text-decoration: none;
 }
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color:#010409;
+    margin: 20px 0 0 0;
+}
+
+footer p{
+    font-size: 14px;
+    color: rgb(240, 245, 248);
+}
