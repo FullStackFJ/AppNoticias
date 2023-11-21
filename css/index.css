@@ -1,6 +1,6 @@
 
 .fondo{
-    background-color: #D6F1F3;
+    background-color: #0D1117;
     margin: 0;
     padding: 0; 
 }
@@ -10,7 +10,7 @@ header{
     flex-direction: row;
     position:relative;
     justify-content: space-between;
-    background-color: #91D2D2;
+    background-color: #010409;
     width: 100%;
     align-items: center;
 }
@@ -38,26 +38,26 @@ justify-content: center;
     text-align:right;
 }
 
-nav{
+.barraSup{
     display:flex;
-    justify-content: center;
+    justify-content: center; 
 }
 
 nav ul{
+    background-color:#202C33;
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    color: purple;
+    width: 100%;
 }
 
-nav ul li{
+nav li{
     margin: 10px;
 }
 
-.border-black{
-    width: 100%;
-    height: 35px;
+nav a{
+    text-decoration: none;
 }
 
 .main{
@@ -65,36 +65,84 @@ nav ul li{
     flex-direction: row;
     margin: 10px 0 10px 0;
 }
+.main p{
+    color: #D9EDF3;
+}
+.main h4{
+    color: #D9EDF3;
+}
 
 .mainIzquierda{ 
-
     display: inline-block; 
-    width: 800px; height: 800px;
+    width: 50%; height: 2%;
     display:flex;
     flex-direction:column;
-    margin: 10px;
+    margin: 5px;
 }
 
 .mainDerecha{
     display:flex;
     flex-direction:column;
-    width: 800px; height: 400px;
-    margin: 10px;
+    width: 50%; height: 2%;
+    margin: 5px;
 }
 
 .mainIzquierda .seccionInferior,
 .mainIzquierda .seccionSuperior {
-    border: 1px solid black;
-    margin: 10px;
-    padding: 10px;
+    background-color: #111D2F;
+    margin: 10px 0px 0px 40px;
+    border: 3px solid #202C33; 
+    margin: 5px;
+    padding: 5px;
 }
 
 .mainDerecha .LateralSuperior,
 .mainDerecha .LateralMedia,
 .mainDerecha .LateralInferior {
-    border: 1px solid black;
-    margin: 10px;
-    padding: 10px;
+    display: inline-block; 
+    background-color: #111D2F;
+    width: 100%;
+    display:flex;
+    margin: auto;
+    border: 3px solid #202C33; 
+    margin: 5px;
+    padding: 5px;
 }
 
 
+
+.noticia1Img{
+    display: flex;
+    border: 2px solid black;
+    width: 100%;
+    height: 70%;
+    margin:auto;
+}
+
+.noticia2Img{
+    display: flex;
+    border: 2px solid black;
+    width:40%;
+    margin:auto;
+    height: 50%;
+}
+
+.texto1{
+    display:flex;
+    flex-direction:column;
+    width: 100%;
+    height: 100%;
+    padding: 2.5%;
+}
+
+.seccionInferior a{
+    text-decoration: none;
+}
+
+.campanita{
+    color: white;
+}
+
+.usuario{
+    color: white;
+}

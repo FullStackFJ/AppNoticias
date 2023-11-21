@@ -18,11 +18,14 @@
     </div>
 
     <div class="container-fluid">
-        <form class="d-flex" role="search">
+        <form class="d-flex" role="search" action="pages/busqueda.html">
           <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-          <button class="btn btn-secondary" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-          </svg></button>
+           <button class="btn btn-secondary" type="submit">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+            </svg>
+          </button>       
+          
         </form>
     </div>
     <div class="notif">
@@ -38,18 +41,18 @@
     </div>
 </header>
 <nav>
-    <span class="border border-black">
-    <ul>
-    <li><p>ÚLTIMO MOMENTO</p></li>
-    <li><p>POLÍTICA</p></li>
-    <li><p>ECONOMÍA</p></li>
-    <li><p>SOCIEDAD</p></li>  
-    <li><p>MUNDO DEPORTES</p></li>
-    <li><p>ESPECTÁCULOS </p></li>
-    <li><p>JUEGOS </p></li>
-    <li><p>NEWSLATTERS</p></li> 
-    </ul>   
-    </span>  
+    <div class ="barraSup"> 
+        <ul>
+            <a href=""><li><p>ÚLTIMO MOMENTO</p> </li ></a> 
+            <a href=""> <li><p>POLÍTICA</p> </li> </a>
+            <a href=""> <li><p>ECONOMÍA</p> </li> </a>
+            <a href=""> <li><p>SOCIEDAD</p> </li>  </a>
+            <a href=""> <li><p>MUNDO DEPORTES</p> </li> </a>
+            <a href=""> <li><p>ESPECTÁCULOS </p> </li> </a>
+            <a href=""> <li><p>JUEGOS </p> </li> </a>
+            <a href=""> <li><p>NEWSLATTERS</p> </li> </a>
+        </ul>   
+    </div> 
 </nav>
 <!--NAV (topicos)--> 
 <!--SECCIONES-->                
@@ -57,17 +60,24 @@
 <div class="main">
     <div class = "mainIzquierda"> 
         <div class="seccionSuperior">
-            <h4>Titulo noticia</h4>
-            <p>foto noticia</p>
-            <p>Descripcion noticia</p>
+            <img class="noticia1Img" src="assets/images/milei-presidente.jpg" alt="milei-presidente">
+            <h4>Las propuestas de Javier Milei, el nuevo presidente electo de Argentina</h4>
+            <p>LCon el acercamiento de Mauricio Macri y Patricia Bullrich tras la primera vuelta electoral,
+                 se puso sobre la mesa si alguno de los planes del candidato de La Libertad Avanza estaba en cuestión.</p>
+            <p>Fuente CNN</p>
         </div>
 
         <!--Sección inferior-->
 
         <div class="seccionInferior">
-            <h4>Titulo noticia</h4>
-            <p>foto noticia</p>
-            <p>Descripcion noticia</p>
+            <a href="pages/noticia.html">
+                <img class="noticia1Img" src="assets/images/IslaPuerto.jpeg" alt="IslaPuerto">
+                 <h4>Gran Creciente en el Rio Uruguay</h4>
+            </a>
+                <p>Concepción del Uruguay, una ciudad situada en la provincia de Entre Ríos, Argentina, está experimentando una creciente significativa del Río Uruguay. 
+                Según los informes más recientes, la altura del río ha alcanzado los 7.12 metros..</p>
+                <p>Fuente CARU</p>
+            
         </div>
     </div>
         <!--ARTICULOS DE NOTICIAS PRINCIPALES-->              
@@ -75,21 +85,37 @@
 
     <div class="mainDerecha"> 
         <div class="LateralSuperior">
-            <h5>Titulo foto derecha superior</h5>
-            <p>fotito</p>
-            <p>mini Descripcion</p>
+           <img class="noticia2Img" src="assets/images/PityAlvarez.jpg" alt="PityReparandoTimbre">
+           <div class="texto1">
+             <h4>Se viralizó una foto de Pity Álvarez mientras hacía un trabajo de reparación en una casa</h4>
+             <p>Una admiradora del creador de Viejas Locas e 
+                Intoxicados se lo encontró en la calle y compartió una postal que llamó la atención de sus seguidores</p>
+             <p>ElMundo</p>
+            </div>
         </div>
+        <br><br><br>
 
         <div class="LateralMedia">
-            <h5>Titulo foto derecha superior</h5>
-            <p>fotito</p>
-            <p>mini Descripcion</p>
+            <img class="noticia2Img" src="assets/images/yacare-696x391.jpg" alt="yacare-696x391">
+            <div class="texto1">
+                <h4>Encontraron un yacaré en un predio termal de Chajarí</h4>
+                <p>El reptil estaba cerca de un galpón municipal que se encuentra dentro del predio termal. Se trata de un yacaré overo, 
+                    el cual fue capturado y luego liberado en la Reserva Biprovincial Mocoretá Chajarí.</p>
+                <p>Fuente Once</p>
+            </div>
+            
         </div>
-
+        <br><br><br>
         <div class="LateralInferior">
-            <h5>Titulo foto derecha superior</h5>
-            <p>fotito</p>
-            <p>mini Descripcion</p>
+            <img class="noticia2Img" src="assets/images/Massa.jpg" alt="Massa">
+            <div class="texto1">
+                <h4>Massa aceptó la derrota y ya se comunicó con Milei</h4>
+                <p>“Me he comunicado con Javier Milei para felicitarlo porque es el nuevo presidente”,
+                     dijo el ministro de Economía al reconocer que el libertario es presidente electo. Aseguró que “lo hice convencido de que
+                      lo más importante que le tenemos que dejar a los argentinos esta noche es el mensaje de que la convivencia, el diálogo por la paz
+                       frente a la violencia y la descalificación es el mejor camino que podemos recorrer”, afirmó.</p>
+                <p>Fuente TVP</p>
+            </div>
         </div>
     </div>
 </div> 

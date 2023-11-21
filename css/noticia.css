@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Franklin:wght@300;700&display=swap');
+
+.fondo{
+    background-color: #D6F1F3;
+    margin: 0;
+    padding: 0; 
+}
+
+header{
+    display:flex;
+    flex-direction: row;
+    position:relative;
+    justify-content: space-between;
+    background-color: #91D2D2;
+    width: 100%;
+    align-items: center;
+}
+
+.logo img{
+    width: 50px;
+}
+
+.container-fluid{
+display: flex;
+justify-content: center;
+}
+
+.d-flex{
+    width: 50%;
+}
+
+.notif svg{
+    width:50px;
+}
+
+.notif {
+    display: flex;
+    justify-content:end;
+    text-align:right;
+}
+
+nav{
+    display:flex;
+    justify-content: center;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: purple;
+}
+
+nav ul li{
+    margin: 10px;
+}
+
+.border-black{
+    width: 100%;
+    height: 35px;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0 10px 0;
+}
+
+.contenedor{
+    background-color: white;
+    display: inline-block; 
+    width: 70%; height: 80%;
+    display:flex;
+    flex-direction:column;
+    margin: 10px 0px 0px 40px;
+    border: 3px solid #C6BEF6; 
+}
+
+.contenedor h2{
+    margin: 5px;
+    display: flex;
+    justify-content: start;
+}
+.contenedor h5{
+    margin: 5px;
+    display: flex;
+    justify-content: start;
+}
+
+.contenedor p{
+    margin: 10px;
+    padding: 6px;
+}
+
+.imagenNoticia{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    width: 50%;
+    margin: 10px 200px 0px 0px;
+}
+
+.imagenNoticia img{
+    width: 70%;
+    border: 2px solid black;
+}
+
+.comentarios{
+    border: 2px solid black;
+    width: 70%;
+}
+
+.comentarios form{
+    background-color: white; 
+}
+
+.comentarios p{
+    font-size: 20px; 
+    font-family: 'Bebas Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.campanita{
+    color: white;
+}
+
+.usuario{
+    color: white;
+}
