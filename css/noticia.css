@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Franklin:wght@300;700&display=swap');
 
 .fondo{
-    background-color: #D6F1F3;
+    background-color: #0D1117;
     margin: 0;
     padding: 0; 
+}
+
+.nombre p{
+    color: white;
 }
 
 header{
@@ -11,10 +15,19 @@ header{
     flex-direction: row;
     position:relative;
     justify-content: space-between;
-    background-color: #91D2D2;
+    background-color: #010409;
     width: 100%;
     align-items: center;
 }
+
+header p{
+    font-size: 20px; 
+    font-family: 'Bebas Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 0px 20px;
+}
+
 
 .logo img{
     width: 50px;
@@ -39,27 +52,28 @@ justify-content: center;
     text-align:right;
 }
 
-nav{
+.barraSup{
     display:flex;
-    justify-content: center;
+    justify-content: center; 
 }
 
 nav ul{
+    background-color:#202C33;
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    color: purple;
+    width: 100%;
 }
 
-nav ul li{
+nav li{
     margin: 10px;
 }
 
-.border-black{
-    width: 100%;
-    height: 35px;
+nav a{
+    text-decoration: none;
 }
+
 
 .main{
     display: flex;
@@ -68,24 +82,28 @@ nav ul li{
 }
 
 .contenedor{
-    background-color: white;
+    background-color: #111D2F;
     display: inline-block; 
     width: 70%; height: 80%;
     display:flex;
     flex-direction:column;
     margin: 10px 0px 0px 40px;
-    border: 3px solid #C6BEF6; 
+    border: 3px solid #202C33;
+    padding:5px;
 }
 
 .contenedor h2{
+    color: white;
     margin: 5px;
     display: flex;
     justify-content: start;
 }
 .contenedor h5{
+    color: white;
     margin: 5px;
     display: flex;
     justify-content: start;
+    padding:5px;
 }
 
 .contenedor p{
@@ -103,11 +121,11 @@ nav ul li{
 
 .imagenNoticia img{
     width: 70%;
-    border: 2px solid black;
+    border: 5px solid #202C33;
 }
 
 .comentarios{
-    border: 2px solid black;
+    border: 5px solid #202C33;
     width: 70%;
 }
 
@@ -115,7 +133,12 @@ nav ul li{
     background-color: white; 
 }
 
+.main p{
+    color: #D9EDF3;
+}
+
 .comentarios p{
+    color: black;
     font-size: 20px; 
     font-family: 'Bebas Neue', sans-serif;
     display: flex;
